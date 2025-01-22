@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1f242d;
+}
+
+nav ul {
+  display: flex;
+  gap: 43px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 0px;
+}
+
+nav h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+nav ul li a {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+nav ul li a:focus {
+  color: #00eeff;
+}
+
+main section:nth-child(1) {
+  background-color: #1f242d;
+}
+
+.main-first-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.left-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.left h2:nth-child(1) {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.left h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.left-text1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.left-text1 span {
+  color: #00eeff;
+}
+
+.left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 31px;
+  margin-top: 21px;
+}
+
+.left-icons .icon i {
+  color: #00eeff;
+}
+
+.left-icons .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #00eeff;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #323946;
+  padding: 11px 28px;
+  box-shadow: 0px 0px 10px 0px #00eeff;
+  border: none;
+  border-radius: 40px;
+  margin-top: 30px;
+  background-color: #00eeff;
+}
+
+.right img{
+  margin-top: 50px;
+  transform: translateX(100px);
+}
+@media (max-width:1024px){
+  .container{
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  
+}
